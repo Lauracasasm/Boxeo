@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <title>Examen Laura Casas</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="./img/guantes.jpeg" alt="guantes">
+            </div>
+            <div>
+                <h1>Examen Lenguaje de Marcas</h1>
+                <h3>1º Evaluacion 2021</h3>
+            </div>
+            <div>
+                <label for="Buscador">Buscar:</label> <br>
+                <input type="search" placeholder="Introduce tu texto">
+            </div>
+        </header>
+        <div id="contenedor">
+            <div>
+                <ul>
+                    <li><a href="#piePagina">Boxeadores</a></li>
+                    <li><a href="https://www.marca.com/boxeo.html" target="_blank" >Prensa</a></li>
+                    <li><a href="./html/yo.html">Sobre mí</a></li>
+                  </ul>
+            </div>
+            <div>
+                <h3>Lomachenko</h3>
+                <iframe src="https://www.youtube.com/embed/VA8I1NxoQOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="formulario">
+                <h3>Suscribirse</h3>
+                <form action="http://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" placeholder="Ingrese sus apellidos" maxlength="10" required><br><br>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" maxlength="10" required><br><br>
+                    <label for="nacionalidad">Nacionalidad:</label>
+                    <select id="cars" name="cars">
+                        <option value="Armenia">Armenia</option>
+                        <option value="españa" selected>España</option>
+                        <option value="Francia">Francia</option>
+                        <option value="Italia">Italia</option>
+                        <option value="Portugal">Portugal</option>
+                    </select><br>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" placeholder="nombre@example.com" maxlength="30" size="30"><br>
+                    <label for="passw">Contraseña:</label><br>
+                    <input type="password" id="passw" name="passw" placeholder="Introduce tu contraseña" ><br>
+                    <label for="sexo">Sexo</label>
+                    <input type="radio" id="f" name="sexo" value="F">
+                    <label for="mujer">F</label>
+                    <input type="radio" id="m" name="sexo" value="M">
+                    <label for="hombre">M</label><br>
+                    <input type="checkbox" id="info" name="info" value="info" checked>
+                    <label for="info"> Deseo recibir indormacion a través del correo electronico</label><br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Restablecer">
+                  </form> 
+            </div>
+            <div>
+                <table>
+                    <tr class="cursiva"> 
+                      <th colspan="3">Boxeadores</th>
+                    </tr>
+                    <tr>
+                      <th>Nombre</th>
+                      <th>Nacimiento</th>
+                      <th>Peso</th>
+                    </tr>
+                    <tr>
+                      <td>Muhammad Ali</td>
+                      <td>17 de enero de 1942</td>
+                      <td>Pesado</td>
+                    </tr>
+                    <tr>
+                        <td>Marian Trimiar</td>
+                        <td>15 de Agosto de 1953</td>
+                        <td>Ligero</td>
+                      </tr>
+                      <tr>
+                        <td>Vasyl Lomanchenko</td>
+                        <td>17 de febrero de 1953</td>
+                        <td>Welter</td>
+                      </tr>
+                  </table>
+            </div>
+
+        </div>
+        
+        <footer id="piePagina">
+            <div id="derechos">
+                Todos los derechos reservados
+            </div>
+            <div id="derechos">
+                Síguenos en las redes sociales
+            </div>
+            <div id="web">
+                Web realizada por Laura Casas
+            </div>
+        </footer>
+    </body>
+</html>
